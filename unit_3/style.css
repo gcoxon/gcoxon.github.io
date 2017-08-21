@@ -1,4 +1,25 @@
 body{
 	background-color: #ffc2c2;
+	background-image: auto;
+	position: center;
+	font-family: "ff-meta-web-pro" ,sans-serif;
 }
+
+h1 {
+color: white;
+}
+
+#slogan{
+	color: white;
+    font-family: sans-serif;
+}
+
+div {
+	height: 150px;
+	width: 150px;
+}
+
+ #productlist {
+display: inline-block;
+ }
 

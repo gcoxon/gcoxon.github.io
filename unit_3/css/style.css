@@ -1,0 +1,39 @@
+body{
+	font-family: courier;
+	text-align: center;
+}
+
+#header{
+	height: auto;
+	width: auto;
+	padding: 30px;
+	background-color: #ffc2c2;
+
+}
+
+h1 {
+color: white;
+font-size: 65px;
+text-align: center;
+}
+
+#slogan{
+	color: white;
+    font-family: courier;
+    text-align: center;
+    font-style: italic;
+ }
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: underline;
+	color: #000;
+}
+
+
+#aboutme{
+	text-align: justify;
+}
