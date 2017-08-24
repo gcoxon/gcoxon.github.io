@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Zilla+Slab');
+
 body{
-	font-family: courier;
+	font-family: 'Zilla Slab',courier;
 	text-align: center;
-}
-
-#header{
-	height: auto;
-	width: auto;
-	padding: 30px;
-	background-color: #ffc2c2;
-
 }
 
 h1 {
 color: white;
 font-size: 65px;
+font-weight: bold;
 text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: underline;
+	color: #000;
 }
 
 #slogan{
@@ -24,13 +28,11 @@ text-align: center;
     font-style: italic;
  }
 
-li{
-	display: inline;
-}
-
-a{
-	text-decoration: underline;
-	color: #000;
+#header{
+	height: auto;
+	width: auto;
+	padding: 30px;
+	background-color: #ffc2c2;
 }
 
 
