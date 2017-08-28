@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Zilla+Slab');
+
+body{
+	font-family: 'Zilla Slab',courier;
+	text-align: center;
+}
+
+h1 {
+color: white;
+font-size: 65px;
+font-weight: bold;
+text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: underline;
+	color: #000;
+}
+div{
+background-color: #FFE2B8;	
+}
+
+#slogan{
+	color: white;
+    font-family: courier;
+    text-align: center;
+    font-style: italic;
+ }
+
+header{
+	height: auto;
+	width: auto;
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+section{
+	text-align: justify;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside{
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
