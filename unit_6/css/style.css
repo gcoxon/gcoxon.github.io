@@ -18,8 +18,12 @@ li{
 }
 
 a{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #000;
+}
+
+a:hover { 
+	text-decoration: underline;
 }
 
 header {
@@ -49,6 +53,8 @@ footer {
 	padding: 10px;
 	width: 100%;
 	border-top: 1px solid #000000;
+	text-decoration: none;
+
 }
 
 #slogan{
@@ -63,14 +69,14 @@ footer {
 	padding: 20px
 }
 
-#left {
+#about {
 background-color: #FFFFFF;
 padding: 20px;
 float: left;
 width: 60%;
 }
 
-#right {
+#aboutimage {
 padding: 20px;
 float: left;
 width: 30%;
@@ -90,7 +96,7 @@ width: 30%;
 margin: 20px;
 text-align: center;
 font-size: 20px;
-background-color: #ffc2c2;
+background-color: rgba(255, 194, 194, 0.4)
 }
 
 #Rings {
@@ -98,7 +104,9 @@ background-color: #FFFFFF;
 float: left;
 width: 25%;
 height: auto;
+
 }
+
 
 #Earrings {
 background-color: #FFFFFF;
