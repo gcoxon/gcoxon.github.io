@@ -4,6 +4,7 @@ body{
 	font-family: 'Zilla Slab',courier;
 	text-align: center;
 	font-size: 16px;
+	width: 100%;
 }
 
 h1 {
@@ -32,7 +33,7 @@ header {
 	width: 100%;
 	background-color: #FFFFFF;
 	padding: 1.25em;
-	margin: .6em;
+	
 
 }
 
@@ -44,9 +45,9 @@ section {
 
 nav {
 	background-color: #ffc2c2;
-	padding: .6em;
 	text-align: right;
 	width: 100%;
+	padding: .6em;
 }
 
 footer {
@@ -73,13 +74,13 @@ footer {
 #about {
 background-color: #FFFFFF;
 padding: 1.25em;
-float: left;
-width: 60%;
+float: right;
+width: 50%;
 }
 
 #aboutimage {
 padding: 1.25em;
-float: left;
+float: right;
 width: 30%;
 
 }
@@ -128,4 +129,39 @@ background-color: #FFFFFF;
 float: left;
 width: 25%;
 height: auto;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+#about{
+	width: 100%;
+	padding: 0em 3em;
+	text-align: center;
+	float: none;
+	margin: 0px;
+}
+
+#aboutimage{
+	width: 100%;
+	padding: 0em 3em;
+	float:none;
+
+}
+
+#Rings {
+	width: 100%;
+}
+	
+#Earrings {
+	width: 100%;
+}
+#Bracelets {
+	width: 100%;
+}
+
+#Necklaces {
+	width: 100%;
+}
 }
