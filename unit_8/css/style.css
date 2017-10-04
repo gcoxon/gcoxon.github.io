@@ -4,7 +4,6 @@ body{
 	font-family: 'Zilla Slab',courier;
 	text-align: center;
 	font-size: 16px;
-	width: 100%;
 }
 
 h1 {
@@ -47,7 +46,7 @@ nav {
 	background-color: #ffc2c2;
 	text-align: right;
 	width: 100%;
-	padding: .6em;
+	padding: .6em 0em;
 }
 
 footer {
@@ -95,7 +94,7 @@ width: 30%;
 }
 
 #products {
-margin: 1.25em;
+margin: 1.25em 1.25em 3em 1.25em;
 text-align: center;
 font-size: 1.25em;
 background-color: rgba(255, 194, 194, 0.4)
