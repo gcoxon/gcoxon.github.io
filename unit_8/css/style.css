@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Zilla+Slab');
+
+body{
+	font-family: 'Zilla Slab',courier;
+	text-align: center;
+	font-size: 16px;
+}
+
+h1 {
+color: #000000;
+font-size: 4em;
+font-weight: bold;
+text-align: center;
+}
+
+li{
+	display: inline;
+	padding: .6em;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover { 
+	text-decoration: underline;
+}
+
+header {
+	height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 1.25em;
+	margin: .6em;
+
+}
+
+section {
+	text-align: justify;
+	background-color: #FFE2B8;
+	padding: 1.25em;
+}
+
+nav {
+	background-color: #ffc2c2;
+	padding: .6em;
+	text-align: right;
+	width: 100%;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: .6em;
+	width: 100%;
+	border-top: 1px solid #000000;
+	text-decoration: none;
+
+}
+
+#slogan{
+	color: #000000;
+    font-family: courier;
+    text-align: center;
+    font-style: italic;
+ }
+
+ #two_column{
+	background-color: #FFFFFF;
+	padding: 1.25em;
+}
+
+#about {
+background-color: #FFFFFF;
+padding: 1.25em;
+float: left;
+width: 60%;
+}
+
+#aboutimage {
+padding: 1.25em;
+float: left;
+width: 30%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#products {
+margin: 1.25em;
+text-align: center;
+font-size: 1.25em;
+background-color: rgba(255, 194, 194, 0.4)
+}
+
+#Rings {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+
+}
+
+
+#Earrings {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
+
+#Bracelets {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
+
+#Necklaces {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
