@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Zilla+Slab');
+
+body {
+	font-family: 'Zilla Slab',courier;
+	text-align: center;
+	font-size: 16px;
+}
+
+h1 {
+color: #000000;
+font-size: 4em;
+font-weight: bold;
+text-align: center;
+}
+
+li{
+	display: inline;
+	padding: .6em;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover { 
+	text-decoration: underline;
+}
+
+header {
+	height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 1.25em;
+	
+
+}
+
+section {
+	text-align: justify;
+	background-color: #FFE2B8;
+	padding: 1.25em;
+}
+
+nav {
+	background-color: #ffc2c2;
+	text-align: right;
+	width: 100%;
+	padding: .6em 0em;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: .6em;
+	width: 100%;
+	border-top: 1px solid #000000;
+	text-decoration: none;
+
+}
+
+#hero_image {
+	width: 100%;
+	height:auto;
+	background-image: img src="images/anna_rings_earrings.jpg";
+	background-repeat: none;
+	background-size: cover;
+}
+
+#slogan{
+	color: #000000;
+    font-family: courier;
+    text-align: center;
+    font-style: italic;
+ }
+
+ #two_column{
+	background-color: #FFFFFF;
+	padding: 1.25em;
+}
+
+#about {
+background-color: #FFFFFF;
+padding: 1.25em;
+float: left;
+width: 50%;
+margin-left: 1.25em;
+}
+
+#aboutimage {
+padding: 1.25em;
+margin-right: 4em;
+float: right;
+width: 30%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#products {
+margin: 1.25em 1.25em 3em 1.25em;
+text-align: center;
+font-size: 1.25em;
+background-color: rgba(255, 194, 194, 0.4)
+}
+
+#Rings {
+background-color: #FFFFFF;
+height: auto; 
+float: left;
+width: 25%;
+height: auto;
+
+}
+
+
+#Earrings {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
+
+
+#Bracelets {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
+
+#Necklaces {
+background-color: #FFFFFF;
+float: left;
+width: 25%;
+height: auto;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+#about{
+	width: 100%;
+	padding: 0em 3em;
+	text-align: center;
+	float: none;
+	margin: 0px;
+}
+
+#aboutimage{
+	width: 50%;
+	padding: 0em 3em;
+	margin: 0em, 4em;
+	float: none;
+}
+
+#Rings {
+	width: 100%;
+}
+	
+#Earrings {
+	width: 100%;
+}
+#Bracelets {
+	width: 100%;
+}
+
+#Necklaces {
+	width: 100%;
+}
+}
