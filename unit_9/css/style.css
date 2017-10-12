@@ -57,21 +57,22 @@ footer {
 	text-decoration: none;
 
 }
-
-#hero_image {
-	width: 100%;
-	height:auto;
-	background-image: img src="images/anna_rings_earrings.jpg";
-	background-repeat: none;
-	background-size: cover;
-}
-
 #slogan{
 	color: #000000;
     font-family: courier;
     text-align: center;
     font-style: italic;
  }
+
+
+#hero_image {
+	background-image: url(images/anna_rings_earrings.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+
+}
+
 
  #two_column{
 	background-color: #FFFFFF;
